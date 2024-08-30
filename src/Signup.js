@@ -36,6 +36,7 @@ function Signup() {
 
   function onclick_listner() {
    axios.post("https://book-system-backend-3.onrender.com/insert_data",user_data)
+   navigate("/")
   }
 
   return (
