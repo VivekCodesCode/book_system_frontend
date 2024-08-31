@@ -98,3 +98,21 @@
 align-items:safe !important;
  background-color: #abbbd3;
  } 
+
+ @media (max-width: 460px) {
+  .admin_login_container{
+    width:110% !important;
+    margin-top: -100px;
+    margin-left: -10px;
+  }
+  .one_book{
+    width: 17rem !important;
+    
+  }
+  .all_books{
+    padding: 0 !important;
+    margin-left: 14%;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 20px;
+  }
+ }

@@ -36,7 +36,7 @@ function History(params) {
             )
             
             })}
-        
+       <center><button>Delete History</button></center> 
             </>
           );
 }
