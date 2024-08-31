@@ -10,6 +10,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbars from './Navbar';
 import Footers from './Footer';
+import { Audio } from 'react-loader-spinner';
 function App() {
   const [button_display, set_display] = useState(Array(20).fill("block"));
   const [cost, new_cost] = useState([290, 386, 274, 900, 590, 586, 462, 586, 90, 299, 500, 480, 896, 900, 604]);
@@ -54,7 +55,7 @@ function App() {
   return (
     <>
       <Navbars name={arr[0]}/>
-    
+   
       <div className='all_books'>
         {
 

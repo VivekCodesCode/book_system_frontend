@@ -43,7 +43,7 @@ function Signup() {
     <Container className="book_login">
       <Header className="user_login_navbar"> 
         <Navbar className="user_login_navbar" appearance="inverse">
-          <Navbar.Brand className="navbar_head_admin">Totality Corp</Navbar.Brand>
+          <Navbar.Brand className="navbar_head_admin">Mercedes-Benz</Navbar.Brand>
         </Navbar>
       </Header>
       <Content>

@@ -9,7 +9,7 @@ function Footers() {
         <div className="row text-md-left">
           {/* Company Logo and About */}
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 className="text-uppercase mb-4 font-weight-bold">Totality Corp</h5>
+            <h5 className="text-uppercase mb-4 font-weight-bold">Mercedes-Benz</h5>
             <p>
               A brief description of r company. Offering services or products that enhance the life of our customers, we strive for excellence and customer satisfaction.
             </p>
@@ -39,7 +39,7 @@ function Footers() {
               <i className="fas fa-home mr-3"></i> 123, Main Street, City, Country
             </p>
             <p>
-              <i className="fas fa-envelope mr-3"></i> info@TotalityCorp.com
+              <i className="fas fa-envelope mr-3"></i> info@Mercedes-Benz.com
             </p>
             <p>
               <i className="fas fa-phone mr-3"></i> + 01 234 567 88
@@ -78,7 +78,7 @@ function Footers() {
             <p className="text-center text-md-left">
               © 2024 Copyright:
               <a href="#" className="text-light">
-                <strong> TotalityCorp.com</strong>
+                <strong> Mercedes-Benz.com</strong>
               </a>
             </p>
           </div>
