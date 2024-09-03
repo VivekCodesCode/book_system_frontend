@@ -18,21 +18,21 @@ function App() {
   const navigate = useNavigate();
   const arr=useSelector((state) => state.amount.secondArray);
   console.log("woejifkbiuef"+arr)
-  let titles = ["Harry-Potter", "Somewhere Beyond Sea", "The Bog Wife", "Take my mind", "Black Beauty", "Atomic-Habits", "War and Peace", "Amish",
-    "Splinters", "American Psyco", "The Alchemist", "Great Gatsby"
+  let titles = ["Anderson Palace,Indore", "Shreemaya , Indore", "Great-Palace , Pune", "Sky High , Hyderabad", "Ocean Deep , Luckhnow", "Atomic-Habits", "Great Palace , Banglore", "Gatsby , Dhar",
+    "Mountain Palace , NewYork", "Bukingam Palace , Canada", "Mountress Palace , Dubai", "Diamond Mention , Goa"
   ];
-  let images = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSubXmB6psMiT1i6pEXr6Ex81xQeImIadNmlA&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYRH6xnp7amxuNjw0iWfrqqSFlpb0Fe_VYFA&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1z3Z6mvUG7fyiJ3OVzx7-CNOx9o6-AegeRA&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzn30-XAgbrycGWXeUDdVGbTb0cIHg1d8X2A&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwzUWplqEA_y3ejj4QXdRswlWwV1mpTNfaA&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhcA3JhI42Wb7mvVoBIlGCA92p9Povi_oMnw&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROCSbBpPGs_s6KsJ4MmVN-sU8p1M4krchYkA&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZzXXjmqJcXjG7pNr2lSJ1l5szvGFxmtUWag&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5DOPTv9dZFILkYSoi2AkxeME3-eGXK1H93A&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGh8nYLLj5J3DOWqfY44wkyt2njH8Rwa1u1A&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAyRJgU8R3CLpe4tBJn8aJULWoVCs6rkeTJA&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKi5lknrw7SIwZ01RQRqyvtXz2bFxrUsGVpA&s"
+  let images = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg8D7Wa34qhrr1sHSReZFXa8mYV-nCvpsfPg&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFlZo727G2zM_cq9fG5PcVHs4tyclyog_IaA&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpnZSawUK9d0O_UeV67nrwLkMSSTP9FQuIGw&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDRQ8AzI7-P4Wn2f4oXd77zaVyAmy4g3fk8w&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlc78qZ9ffnkEDqrf41cb4yDfJkFCEY8n25g&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuKY-hd-Oq4Q4sNkTiJvpzC-0mR71jbH0SHw&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs8YBSvf6RRDNLAp_ghWY-IHMMdb88dCQj-Q&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmyn22UqwD9JG96scuEuxsrpyv3vmtO4xLEQ&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRwqXJhgat9Lyk1iyt70ZG3cc4_aJckezopQ&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX4bfTE2fsD5bkisIWOYweDZqzfnMsUM-X6w&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmFGP7isigsYXY4sHF_YWj024VDSYdT8ObMA&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-khTatH5anushmDZjU40xr6dKUAi2PvXbQ&s"
   ]
   function addtocart_button(params) {
     set_display(
