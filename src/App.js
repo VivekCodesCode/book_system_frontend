@@ -54,7 +54,7 @@ function App() {
 
   return (
     <>
-      <Navbars name={arr[0]}/>
+      <Navbars name={arr[arr.length()-1]}/>
    
       <div className='all_books'>
         {
